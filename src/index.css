@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner-cta { color: #fff; text-decoration: none; font-weight: 700; letter-spacing: .04em; display: inline-flex; align-items: center; gap: 10px; }
+.logicadev-mark { width: min(100%, 390px); aspect-ratio: 1; margin: 30px auto; border-radius: 50%; display: grid; place-items: center; background: radial-gradient(circle, #17133e 48%, #2831a6 49%, #52efff 51%, #22205e 54%); box-shadow: 0 0 55px #31c9ff88; animation: mark-float 4s ease-in-out infinite; }
+.logicadev-mark-inner { width: 70%; aspect-ratio: 1; border-radius: 50%; border: 1px solid #6cefff88; display: flex; flex-direction: column; align-items: center; justify-content: center; color: #fff; background: #17133e; font-size: clamp(2rem, 6vw, 4rem); line-height: .85; box-shadow: inset 0 0 35px #4525a566; }
+.logicadev-mark-inner span { color: #4beaff; font-family: monospace; font-size: .8em; margin-bottom: 14px; }
+.logicadev-mark-inner strong { letter-spacing: .08em; text-align: center; }
+.logicadev-mark-inner i { color: #4beaff; font-style: normal; }
+.vvd { display: inline-block; text-decoration: none; }
+@keyframes mark-float { 50% { transform: translateY(-10px); } }

@@ -1,0 +1,9 @@
+{
+  "short_name": "Logicadev",
+  "name": "Logicadev | Portafolio",
+  "icons": [{ "src": "logicadev-icon.png", "type": "image/png", "sizes": "512x512" }],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#17133e",
+  "background_color": "#17133e"
+}
