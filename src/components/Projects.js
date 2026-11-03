@@ -15,16 +15,22 @@ const projects = [
     url: "https://fiadoya.vercel.app/",
   },
   {
-    title: "Gesti\u00f3n de estudiantes",
+    title: "ControlEdu",
     description: "Plataforma para gestionar cursos, estudiantes y materias.",
     imgUrl: projImg2,
-    url: "https://gestion-estudiantes-frontend.onrender.com/",
+    url: "https://controledu.vercel.app/",
   },
   {
     title: "Ferreteria Yunque",
     description: "Sistema para apoyar las ventas y el control de inventario de una ferreteria.",
     imgUrl: projImg3,
-    url: "",
+    url: "https://ferreteria-yunque.vercel.app/",
+  },
+  {
+    title: "Unimeta",
+    description: "Sistema para gestionar cursos, estudiantes, materias, profesores, notas.",
+    imgUrl: projImg3,
+    url: "https://unimeta.vercel.app/",
   },
 ];
 
